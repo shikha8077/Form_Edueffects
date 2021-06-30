@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import BasicForm from "./Formcomponents_1/Formcomponents";
+import FromDisp from "./FormComponent_2/Formdisplay";
+import Product from "./Productcomponnets/MainComponents";
+import MainCom from "./StudentForm/MainCom";
+import MailComponents from "./RadioCheckBoxForm/MailComponents";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2> hello Shikha</h2>
+      {/* <BasicForm /> */}
+      {/* <FromDisp /> */}
+      {/* <Product /> */}
+      {/* <MainCom /> */}
+      <MailComponents />
     </div>
   );
 }
